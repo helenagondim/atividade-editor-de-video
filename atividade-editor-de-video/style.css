@@ -23,29 +23,6 @@ header {
     margin-right: 1.5%;
 }
 
-.proposta-titulo {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #ffffff; 
-    margin-bottom: 15px;
-    line-height: 1.2;
-}
-
-.texto-suporte {
-    font-size: 1.2rem;
-    color: #e0e0e0;
-    max-width: 600px;
-    margin: 0 auto 25px auto;
-    line-height: 1.5;
-}
-
-body {
-    background-color: #f4f7f6; 
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .banner-principal {
     background-color: #1f2421; 
     padding: 80px 20px;
@@ -82,11 +59,114 @@ body {
     color: #1f2421;
 }
 
+.proposta-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333333; 
+    margin-top: 35px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.texto-suporte {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333333;
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #f4f7f6; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center; /*Deixa os benefícios no centro da página*/
+}
+
+.h2-beneficio{ /*h2 da seção de beneficios*/
+    color: #204645;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.p-beneficios{ /*Paragrafos da seção de benefícios*/
+    color: #333333;
+    text-align: center;
+}
+
+.interface { /*benefício de "interface simples"*/
+    background-color: #dce1de;
+    margin: 20px 40px;
+    padding: 10px;
+
+    width: 500px;
+    height: 160px;
+    display: inline-block; /*Deixa os blocos na mesma linha*/
+}
+
+.ferramentas { /*benefício de "variedade de ferramentas"*/
+    background-color: #dce1de;
+    margin: 20px 40px;
+    padding: 10px;
+    
+    width: 500px;
+    height: 160px;
+    display: inline-block; /*Deixa os blocos na mesma linha*/
+}
+
+.celular { /*benefício de "portabilidade para celular"*/
+    background-color: #dce1de;
+    margin: 20px 40px;
+    padding: 10px;
+    
+    width: 500px;
+    height: 160px;
+    display: inline-block; /*Deixa os blocos na mesma linha*/
+}
+
+.prova-social {
+    background-color: #9cc5a1;
+    margin: 0px;
+    padding: 10px;
+    height: 300px;
+}
+
+#william-singh {
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.texto-social {
+    font-size: 120%;
+    display: flex;
+}
+
+#quote {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#nome {
+    font-weight: 700;
+}
+
 .chamada-final {
     background-color: #1f2421; 
     text-align: center;
     padding: 60px 20px;
-    margin-top: 50px; 
+    margin-top: 0px; 
 }
 
 .chamada-final h2 {
