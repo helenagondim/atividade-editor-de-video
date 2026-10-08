@@ -22,3 +22,81 @@ header {
     margin-left: 2%;
     margin-right: 1.5%;
 }
+
+body {
+    background-color: #f4f7f6; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-principal {
+    background-color: #1f2421; 
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.banner-principal h1 {
+    color: #9cc5a1; 
+    font-size: 38px;
+    font-family: Cambria, Georgia, serif;
+    margin-bottom: 15px;
+}
+
+.banner-principal p {
+    color: white;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px auto; 
+    line-height: 1.5;
+}
+
+.botao-destaque {
+    background-color: #9cc5a1;
+    color: #1f2421;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.botao-destaque:hover {
+    background-color: white; 
+    color: #1f2421;
+}
+
+.chamada-final {
+    background-color: #1f2421; 
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 50px; 
+}
+
+.chamada-final h2 {
+    color: #9cc5a1;
+    font-size: 32px;
+    font-family: Cambria, Georgia, serif;
+    margin-bottom: 10px;
+}
+
+.chamada-final p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.botao-simples {
+    background-color: transparent;
+    color: #9cc5a1;
+    border: 2px solid #9cc5a1;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.botao-simples:hover {
+    background-color: #9cc5a1;
+    color: #1f2421;
+}
